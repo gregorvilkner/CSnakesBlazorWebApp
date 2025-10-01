@@ -7,15 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="python\create_db.py" />
-    <None Remove="python\dostuff.py" />
+    <None Remove="Python\create_db.py" />
+    <None Remove="Python\dostuff.py" />
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="python\create_db.py">
+    <AdditionalFiles Include="Python\create_db.py">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AdditionalFiles>
-    <AdditionalFiles Include="python\dostuff.py">
+    <AdditionalFiles Include="Python\dostuff.py">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AdditionalFiles>
   </ItemGroup>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="python\requirements.txt">
+    <None Update="Python\requirements.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
